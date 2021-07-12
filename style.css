@@ -11,15 +11,26 @@ body{
     margin: 0;
     height:100vh;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #252B32;
 
 }
 
+.header-container{
+    width: 80vw;
+}
+
+.header-container h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+}
+
 .container{
-/* background-color: aquamarine; */
 width: 80vw;
-height: 80vh;
+height: 70vh;
 display: flex;
 }
 
