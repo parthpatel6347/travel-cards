@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+/* background-color: aquamarine; */
+width: 80vw;
+height: 80vh;
+display: flex;
+}
+
+.card{
+background-color: bisque;
+flex-grow: .5;
+margin: 10px;
+transition: all 0.3s ease-in;
+
+}
+
+.card.active{
+    flex-grow: 5;
+    margin: -20px;
+    background-color: coral;
+    z-index: 2;
+    transition: all 0.3s ease-in;
+}
